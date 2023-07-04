@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-body{
+
+body {
   font-size: 20px;
   background-image: url("../ina_logo.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .App {
   text-align: center;
 }
@@ -39,16 +41,17 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.text_black{
+.text_black {
   color: black;
 }
 
-.con{
+.con {
   width: 100%;
   max-width: 1900px;
   padding-top: 20px;
@@ -58,7 +61,7 @@ body{
   margin: auto;
 }
 
-.bg{
+.bg {
   background-image: url("../bg2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,31 +72,31 @@ body{
 
 /* Navbar */
 
-.logo_nav{
+.logo_nav {
   width: 50px;
 }
 
-.logo_name{
+.logo_name {
   font-family: 'Krona One', sans-serif;
   color: black;
   font-size: 25px;
   margin-left: 10px;
 }
 
-.nav_con{
+.nav_con {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo_nav_con{
+.logo_nav_con {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.nav_link_con{
+.nav_link_con {
   margin-top: 10px;
   display: flex;
   justify-content: end;
@@ -104,22 +107,22 @@ body{
 
 /* Intro */
 
-.intro_con{
-  
-}
+.intro_con {}
 
-.logo{
+.logo {
   min-width: 20px;
   width: 580px;
   margin-top: 10px;
 }
-.logo_con{
+
+.logo_con {
   display: flex;
   justify-content: center;
   align-items: center;
- margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
-.welcome_con{
+
+.welcome_con {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -127,24 +130,24 @@ body{
   padding-top: 30px;
 }
 
-.welcome_name{
+.welcome_name {
   font-family: 'Krona One', sans-serif;
 }
 
-.welcome_obj{
+.welcome_obj {
   padding-right: 100px;
   line-height: 40px;
   font-size: 18px;
 }
 
-.line{
+.line {
   border-bottom: solid 2px black;
   width: 30%;
   margin-top: 30px;
   margin-bottom: 40px;
 }
 
-.welcome_btn{
+.welcome_btn {
   margin-top: 50px;
   margin-bottom: 80px;
   padding-left: 30px !important;
@@ -153,15 +156,21 @@ body{
   padding-bottom: 10px !important;
   border-radius: 15px !important;
   border: none !important;
-  background-image: linear-gradient(to right,#D644D5, #8B1FC3);
+  background-image: linear-gradient(to right, #D644D5, #8B1FC3);
 
+}
+
+.welcome_btn:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.235);
 }
 
 /* Contact */
 
-.contact_con{
+.contact_con {
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.5) ;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 50px;
 
   display: flex;
@@ -171,7 +180,7 @@ body{
   border-radius: 30px;
 }
 
-.contact_item{
+.contact_item {
   padding-left: 35px;
   padding-right: 35px;
   padding-top: 15px;
@@ -189,7 +198,7 @@ body{
   margin-right: 40px;
 }
 
-.contact_item_email{
+.contact_item_email {
   padding-left: 35px;
   padding-right: 35px;
   padding-top: 15px;
@@ -208,17 +217,17 @@ body{
   margin-right: 40px;
 }
 
-.contact_item_content{
+.contact_item_content {
   margin-left: 20px;
 }
 
-.contact_item_content_email{
+.contact_item_content_email {
   margin-left: 20px;
 }
 
 /* Skills */
 
-.skills_con{
+.skills_con {
   margin-top: -100px;
   background-color: #CDC7E5;
 
@@ -232,16 +241,16 @@ body{
 
 }
 
-.center{
+.center {
   width: 100%;
   max-width: 1700px;
 }
 
-.skills_title{
+.skills_title {
   font-family: 'Krona One', sans-serif;
 }
 
-.skills_desc{
+.skills_desc {
   margin-top: 40px;
   line-height: 40px;
   font-size: 18px;
@@ -249,11 +258,11 @@ body{
   margin-bottom: 40px;
 }
 
-.ux_con{
+.ux_con {
   color: white;
 }
 
-.ux{
+.ux {
   background-image: linear-gradient(#D644D5, #8B1FC3);
   padding: 50px;
   border-radius: 30px;
@@ -261,7 +270,7 @@ body{
   margin-bottom: 20px;
 }
 
-.web{
+.web {
   border: solid 2px black;
   border-radius: 30px;
   padding: 50px;
@@ -269,14 +278,15 @@ body{
   margin-bottom: 20px;
 }
 
-.ux_desc, .web_desc{
+.ux_desc,
+.web_desc {
   margin-top: 30px;
 }
 
 
 /* Portfolio */
 
-.portfolio_con{
+.portfolio_con {
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -285,12 +295,12 @@ body{
   flex-direction: column;
 }
 
-.portfolio_title{
+.portfolio_title {
   font-family: 'Krona One', sans-serif;
-  
+
 }
 
-.portfolio_desc{
+.portfolio_desc {
   margin-top: 10px;
   font-size: 18px;
   text-align: center;
@@ -299,18 +309,18 @@ body{
 
 /* Cards */
 
-.card_group{
+.card_group {
   padding-top: 30px;
   width: 100%;
 }
 
-.card_group{
+.card_group {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.card{
+.card {
   align-self: center !important;
   max-width: 350px !important;
   min-width: 350px !important;
@@ -324,22 +334,23 @@ body{
   margin: 35px !important;
 }
 
-.card_img{
+.card_img {
   border-radius: 20px !important;
+  height: 200px;
 }
 
-.card_title{
+.card_title {
   margin-top: 10px !important;
 }
 
-.card-footer{
+.card-footer {
   background: none !important;
   border: none !important;
   padding: none !important;
   margin: none !important;
 }
 
-.card_btn{
+.card_btn {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
@@ -347,7 +358,113 @@ body{
   padding-bottom: 12px !important;
   border-radius: 15px !important;
   border: none !important;
-  background-image: linear-gradient(to right,#D644D5, #8B1FC3);
+  background-image: linear-gradient(to right, #D644D5, #8B1FC3);
 
 }
 
+.card_btn:hover {
+  transition: 0.3s;
+  scale: 1.05;
+  opacity: 0.8;
+  box-shadow: 0 0 20px white;
+}
+
+.card:hover {
+  transition: 0.3s;
+  scale: 1.02;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.168);
+}
+
+/* Greet */
+
+.greet_title {
+  font-family: 'Krona One', sans-serif;
+  align-self: self-start;
+}
+
+.greet_con {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.greet_desc {
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.greet_title_con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greet_img {
+  align-self: center;
+  min-width: 70%;
+
+}
+
+.greet_img_con {
+  display: flex;
+  justify-content: center;
+}
+
+.greet_con2 {
+  width: 100%;
+  max-width: 1900px;
+  padding-top: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: auto;
+}
+
+/* Footer */
+
+.footer_con {
+  background-color: #CDC7E5;
+
+  padding-top: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer_name {
+  font-family: 'Krona One', sans-serif;
+}
+
+.footer_info {
+  margin-top: 20px;
+}
+
+.footer_contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: right;
+}
+
+.footer_contact_item{
+  margin-right: 20px;
+}
+
+.footer_contact_email{
+  margin-right: 20px;
+}
+
+.footer_contact_emailcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin-left: 40px;
+}

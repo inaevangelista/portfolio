@@ -1,61 +1,105 @@
-@media only screen and (max-width: 1000px ) {
-    .con{
-      width: 100%;
-      max-width: 1900px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 50px;
-      padding-right: 50px;
-      margin: auto;
-    }
-
-    .navbar-collapse{
-        border-radius: 20px;
-        
-    }
-
-    .welcome_obj{
-        padding-right: 0;
-    }
-
-    .skills_con{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+@media only screen and (max-width: 1000px) {
+  .con {
+    width: 100%;
+    max-width: 1900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
   }
 
-@media only screen and (max-width: 530px ) {
-    .contact_item_email{
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-radius: 15px;
-        border: solid 2px black;
-      
-        min-width: fit-content;
-        width: 10px;
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 0;
-        margin-right: 0;
-      }
+  .greet_con2 {
+    width: 100%;
+    max-width: 1900px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+  }
 
-      .contact_item{
-        margin-left: 0;
-        margin-right: 0;
-      }
+  .navbar-collapse {
+    border-radius: 20px;
 
-    .contact_item_content_email{
-        margin-left: 0;
-    }
+  }
 
-    .card_item{
-        margin: 0;
-      }
-      
+  .welcome_obj {
+    padding-right: 0;
+  }
+
+  .skills_con {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer_con {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
+
+@media only screen and (max-width: 530px) {
+  .contact_item_email {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border: solid 2px black;
+
+    min-width: fit-content;
+    width: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact_item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact_item_content_email {
+    margin-left: 0;
+  }
+
+  .card_item {
+    margin: 0;
+  }
+
+  .footer_contact_emailcon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
   
+    margin-left: 40px;
+  }
+
+  .footer_contact_email{
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer_contact_emailcon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+  
+    margin-left: 40px;
+  }
+
+  .footer_contact_email{
+    margin-right: 0;
+  }
+
+}
