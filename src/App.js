@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './css/App.css';
+import './css/App_mobile.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "yet-another-react-lightbox/styles.css";
+import Landing from './pages/Landing';
+
+document.body.style.background = "#9D99B6";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Landing/>
     </div>
   );
 }

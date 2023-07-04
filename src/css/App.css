@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+  font-size: 20px;
+  background-image: url("../ina_logo.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text_black{
+  color: black;
+}
+
+.con{
+  width: 100%;
+  max-width: 1900px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: auto;
+}
+
+.bg{
+  background-image: url("../bg2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+
+/* Navbar */
+
+.logo_nav{
+  width: 50px;
+}
+
+.logo_name{
+  font-family: 'Krona One', sans-serif;
+  color: black;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.nav_con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_nav_con{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_link_con{
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 10px;
+}
+
+
+/* Intro */
+
+.intro_con{
+  
+}
+
+.logo{
+  min-width: 20px;
+  width: 580px;
+  margin-top: 10px;
+}
+.logo_con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 50px; 
+}
+.welcome_con{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.welcome_name{
+  font-family: 'Krona One', sans-serif;
+}
+
+.welcome_obj{
+  padding-right: 100px;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+.line{
+  border-bottom: solid 2px black;
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.welcome_btn{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 13px !important;
+  padding-bottom: 10px !important;
+  border-radius: 15px !important;
+  border: none !important;
+  background-image: linear-gradient(to right,#D644D5, #8B1FC3);
+
+}
+
+/* Contact */
+
+.contact_con{
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5) ;
+  padding: 50px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 30px;
+}
+
+.contact_item{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border: solid 2px black;
+
+  max-width: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact_item_email{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border: solid 2px black;
+
+  min-width: fit-content;
+  width: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact_item_content{
+  margin-left: 20px;
+}
+
+.contact_item_content_email{
+  margin-left: 20px;
+}
+
+/* Skills */
+
+.skills_con{
+  margin-top: -100px;
+  background-color: #CDC7E5;
+
+  padding-top: 150px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.center{
+  width: 100%;
+  max-width: 1700px;
+}
+
+.skills_title{
+  font-family: 'Krona One', sans-serif;
+}
+
+.skills_desc{
+  margin-top: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.ux_con{
+  color: white;
+}
+
+.ux{
+  background-image: linear-gradient(#D644D5, #8B1FC3);
+  padding: 50px;
+  border-radius: 30px;
+
+  margin-bottom: 20px;
+}
+
+.web{
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 50px;
+
+  margin-bottom: 20px;
+}
+
+.ux_desc, .web_desc{
+  margin-top: 30px;
+}
+
+
+/* Portfolio */
+
+.portfolio_con{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.portfolio_title{
+  font-family: 'Krona One', sans-serif;
+  
+}
+
+.portfolio_desc{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* Cards */
+
+.card_group{
+  padding-top: 30px;
+  width: 100%;
+}
+
+.card_group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card{
+  align-self: center !important;
+  max-width: 350px !important;
+  min-width: 350px !important;
+  min-height: 470px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+
+  border-radius: 30px !important;
+  padding: 30px !important;
+
+  margin: 35px !important;
+}
+
+.card_img{
+  border-radius: 20px !important;
+}
+
+.card_title{
+  margin-top: 10px !important;
+}
+
+.card-footer{
+  background: none !important;
+  border: none !important;
+  padding: none !important;
+  margin: none !important;
+}
+
+.card_btn{
+  width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  border-radius: 15px !important;
+  border: none !important;
+  background-image: linear-gradient(to right,#D644D5, #8B1FC3);
+
+}
+
